@@ -1,0 +1,42 @@
+body {
+	height: 100%;
+}
+
+div#app {
+	height: 100%;
+}
+
+div.main-content {
+	background: teal;
+}
+
+.topbar {
+	background: white;
+}
+
+div.no-right-border div {
+	border-radius: 0px 5px 5px 0px !important;
+}
+div.no-right-border input {
+	border-radius: 5px 0px 0px 5px !important;
+}
+
+div.padding-transition {
+	transition: padding 0.5s;
+}
+
+.speech-bubble {
+	position: relative;
+	padding: 10px 20px;
+	color: white;
+	max-width: fit-content;
+	border-radius: 8px;
+}
+
+.speech-bubble.left {
+	background: rgb(0, 181, 173);
+}
+
+.speech-bubble.right {
+	background: #cccccc;
+}
